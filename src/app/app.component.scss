@@ -1,0 +1,31 @@
+button{
+  background-color: #008cba;
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .container-game {
+    display: flex;
+    width: 80%;
+    .container-sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 800px;
+      margin: auto;
+      .square {
+        border: 1px solid black;
+        width: 250px;
+        height: 250px;
+        font-size: 125px;
+        text-align: center;
+      }
+    }
+  }
+}
